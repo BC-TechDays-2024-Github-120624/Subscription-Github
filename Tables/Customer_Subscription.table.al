@@ -82,6 +82,10 @@ table 50101 "BCT Customer Subscription"
         {
             Caption = 'Allow Line Discount';
         }
+        field(50200; JS_Test; Text[50])
+        {
+            Caption = 'JS_Test';
+        }
     }
 
     keys
