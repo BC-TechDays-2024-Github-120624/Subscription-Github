@@ -1,14 +1,16 @@
-page 50105 JS_TestList
+page 50237 MJA_TestList
 {
-    PageType = List;
     ApplicationArea = All;
-    SourceTable = JS_Test;
-
+    Caption = 'MJA_TestList';
+    PageType = List;
+    SourceTable = MJA_Test;
+    UsageCategory = Lists;
+    
     layout
     {
         area(Content)
         {
-            repeater(Lines)
+            repeater(General)
             {
                 field("Code"; Rec."Code")
                 {

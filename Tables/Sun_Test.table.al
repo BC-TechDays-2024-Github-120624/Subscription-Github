@@ -1,18 +1,19 @@
-table 50103 JS_Test
+table 50229 "Sun_Test"
 {
-    DataClassification = CustomerContent;
+    DataClassification = ToBeClassified;
 
     fields
     {
-        field(1; Code; Code[20])
+        field(1; Code; code[20])
         {
-            Caption = 'Code';
             DataClassification = CustomerContent;
+
         }
+
         field(2; Description; Text[50])
         {
-            Caption = 'Description';
             DataClassification = CustomerContent;
         }
     }
+
 }

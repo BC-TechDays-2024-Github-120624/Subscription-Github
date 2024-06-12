@@ -1,27 +1,25 @@
-table 50104 "RMA Table"
+table 50235 "TableBVE_Test"
 {
-    DataClassification = ToBeClassified;
+    Caption = 'Table BVE';
 
     fields
     {
         field(1; Code; Code[20])
         {
-            DataClassification = ToBeClassified;
             Caption = 'Code';
         }
         field(2; Description; Text[50])
         {
-            DataClassification = ToBeClassified;
-            Caption = 'Text';
+            Caption = 'Code';
         }
-    }
+
+   }
 
     keys
     {
-        key(Key1; Code)
+        key(PK; Code)
         {
             Clustered = true;
         }
     }
-
 }
