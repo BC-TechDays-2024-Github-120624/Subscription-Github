@@ -1,1 +1,1 @@
-﻿{"Added":[{"Id":50104,"Kind":12,"Name":"JS_TestList","Namespace":""},{"Id":50102,"Kind":10,"Name":"JS_Test","Namespace":""}],"Modified":[{"Id":50102,"Kind":11,"Name":"BCT SubscriptionInstall","Namespace":""}],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50100,"Kind":16,"Name":"BCT BusinessManager RC Ext","Namespace":""},{"Id":50102,"Kind":11,"Name":"BCT SubscriptionInstall","Namespace":""}],"Removed":[{"Id":50200,"Kind":17,"Name":"CustExt","Namespace":""},{"Id":50200,"Kind":10,"Name":"SomeTable","Namespace":""}]}
