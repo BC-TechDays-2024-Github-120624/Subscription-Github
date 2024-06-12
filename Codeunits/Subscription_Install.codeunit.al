@@ -5,6 +5,7 @@ codeunit 50102 "BCT SubscriptionInstall"
     trigger OnInstallAppPerCompany();
     begin
         // Instantiate variables needed for the extension
+        PBATest();
         CLP_TEST();
         JS_Test('JS', 'Jan Saltenberger');
         PBATest();
@@ -17,6 +18,16 @@ codeunit 50102 "BCT SubscriptionInstall"
     begin
         // Instantiate variables needed for the extension
 
+    end;
+
+    local procedure PBATest()
+    var
+        PBATest: Record "PBA Test";
+    begin
+        PBATest.Init();
+        PBATest.Code := 'PBA';
+        PBATest.Description := 'PBA Test';
+        if PBATest.Insert() then;
     end;
 
 
